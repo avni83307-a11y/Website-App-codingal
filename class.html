@@ -1,0 +1,22 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            class Student{
+                constructor(name,year){
+                    this.name= name;
+                    this.year= year;
+                }
+
+                age(){
+                    let date= new Date();
+                    return date.getFullYear()-this.year;
+                }
+            }
+            const ob= new Student("Avni",2013);
+            document.write("My name is"+ob.name+"I was born in "+ob.year+"and my age is"+ob.age()+".");
+        </script>
+    </body>
+</html>
