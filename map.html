@@ -1,0 +1,22 @@
+  <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Map function</title>
+    </head>
+    <body>
+        <h1>Map</h1>
+        <div id="result"></div>
+        <script>
+            var a= [12,34,56,89,89]
+            function mul(a){
+                return a*10
+            }
+            var new_array=a.map(mul)
+            document.getElementById ("result").innerHTML="The result is"+ new_array
+        </script>
+        
+    </body>
+    </html>
+</html>
