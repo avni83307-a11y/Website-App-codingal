@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Arrow Function </title>
+</head>
+<style>
+    body{
+        background-color: black;
+        font-size: 20px;
+        color: orange;
+        text-align: center;
+    }
+    h1::before{
+        content:"❤️"
+    }
+     h1::after{
+        content:"❤️"
+    }
+</style>
+<body>
+   <h1> Arrow Function </h1> 
+   <div id="result"></div>
+   <script>
+    const add = (a,b,c)=> a+b+c
+    document.getElementById("result").innerHTML ="The addition of 20,30,40 is "+add(20,30,40)
+   </script>
+</body>
+</html>
