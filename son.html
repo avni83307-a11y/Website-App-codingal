@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <h2> JSON</h2>
+        <p id="result"></p>
+        <script>
+            var myobj={ name:"John",
+                        age:12,
+                        grade:7 };
+                        document.write(myobj.name+"<br>"+myobj.age+"<br>"+myobj.grade+"<br>")
+                        var myjson=JSON.stringify(myobj);
+                        document.write(myjson.name+"<br>")
+                        var newobj=JSON.parse(myjson);
+                        document.write(newobj.name)
+        </script>
+    </head>
+</html>
