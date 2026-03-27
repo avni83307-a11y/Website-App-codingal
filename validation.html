@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Valadation </title>
+</head>
+<body>
+    <h1> From Valadation </h1>
+    <form name ="myform"onsubmit ="valaidateform()">
+        Name:<input type="text" name="myname">
+        <br><br>
+        <input type="submit">
+    </form>
+    <script>
+        var x= document.forms["myform"]["myname"].value
+        if(x=="")
+    {
+        alert("Name had to be filled")
+    }
+    </script>
+</body>
+</html>
