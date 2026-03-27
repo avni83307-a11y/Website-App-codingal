@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valadation API</title>
+</head>
+<body>
+   Enter Number: <input id="numid" type="number" min =20 max=60 required>
+   <br>
+   <button type="button"onclick="Valadation();">Submit</button>
+   <div id="result"></div>
+   <script>
+    function Valadation(){
+    var inpobj=document.getElementById("numid")
+    if (!inpobj.checkValidity()){
+        document.getElementById("result").innerHTML=inpobj.validationMessage
+    }
+    else{
+        document.getElementById("result").innerHTML="input is ok"
+    }
+}
+   </script>
+</body>
+</html>
