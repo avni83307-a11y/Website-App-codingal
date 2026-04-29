@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone</title>
+    <style>
+        body,html{
+          height: 100% ;
+        margin:0;
+        background-color:bisque;
+      }
+      .topnav{
+        overflow: hidden;
+        background-color: crimson;
+      }
+      .topnav a{
+        float: left ;
+        color: blue;
+        text-align: center;
+        padding: 14px 16px ;
+        text-decoration: none;
+        font-size: 17px ;
+      }
+      .topnav a:hover{
+        color: palevioletred;
+        font-size: 21px;
+      }
+      .topnav a.active {
+        background-color:chartreuse ;
+        color: maroon;
+
+      }
+      .bg-image{
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .img1 { background-image: url("deer.jpg");}
+      .img2 { background-image: url("zebra.jpg");}
+      .img3 { background-image: url("elephat.jpg");}
+      .img4 { background-image: url("lion.jpg");}
+      .img5 { background-image: url("hamster.jpeg");}
+      .bg-text{
+        background-color: rgba(0, 0, 0, 0.418);
+        color: white;
+        font-weight: bold;
+        font-size: 80px ;
+        border: 10px solid #f1f1f1;
+        border-radius: 20px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50% );
+      }
+    </style>
+    
+</head>
+<body>
+<div class="topnav">
+    <a  href="index.html"> Home </a>
+    <a class= "active" href="about.html">About</a>
+    <a href="contact.html"> Contact </a>
+    <a href="gallery.html"> Gallery </a>
+</div>
+<div class="bg-image img1"></div>
+<div class="bg-image img2"></div>
+<div class="bg-image img3"></div>
+<div class="bg-image img4"></div>
+<div class="bg-image img5"></div>
+<div class="bg-text"> ANIMALS </div>
+  
+
+</body>
+</html>
