@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone</title>
+    <style>
+        body,html{
+          height: 100% ;
+        margin:0;
+        background-color:bisque;
+      }
+      .topnav{
+        overflow: hidden;
+        background-color: crimson;
+      }
+      .topnav a{
+        float: left ;
+        color: blue;
+        text-align: center;
+        padding: 14px 16px ;
+        text-decoration: none;
+        font-size: 17px ;
+      }
+      .topnav a:hover{
+        color: palevioletred;
+        font-size: 21px;
+      }
+      .topnav a.active {
+        background-color:chartreuse ;
+        color: maroon;
+
+      }
+      .contact{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+
+        background-color:  rgb(21, 21, 53);
+        color: white;
+        width: 300px;
+        padding: 30px;
+        text-align: center;
+        border-radius: 40px;
+        border: 20px solid black;
+      }
+      input[type=submit]{
+        background-color: crimson;
+        color: azure;
+      }
+     input[type=submit]:hover{
+      background-color: coral;
+      width: 10.4%;
+      height: 30px;
+      font-size: 24px;
+     }
+     h1{
+      font: 21px;
+      color: yellowgreen;
+     }
+     
+    </style>
+    
+</head>
+<body>
+<div class="topnav">
+    <a  href="index.html"> Home </a>
+    <a class= "active" href="about.html">About</a>
+    <a href="contact.html"> Contact </a>
+    <a href="gallery.html"> Gallery </a>
+</div>
+<div class="contact">
+  <h1> contact us 
+    <form name="form1">
+      <label for="fname"> Name </label>
+      <br><br>
+      <input type="text" name="fname">
+      <br><br>
+      <label for="email"> Email </label>
+      <br><br>
+      <input type="email" name="email">
+      <br><br>
+    <label for="phone"> Contact no </label>
+      <br><br>
+      <input type="text " name="phone ">
+      <br><br>
+      <label> type a question </label><br><br>
+      <textarea rows = 7 columns = 150></textarea>
+      <br><br>
+     <input type="submit">
+    
+    </form>
+  </h1>
+</div>
+
+</body>
+</html>
